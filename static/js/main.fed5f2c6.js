@@ -15250,7 +15250,7 @@
                 ? (0, Yo.jsx)('button', {
                     className: 'add-cart2',
                     onClick: function () {
-                      n('/cart');
+                      n('./store/cart');
                     },
                     children: 'View to Cart',
                   })
@@ -15270,7 +15270,7 @@
                         {
                           className: 'col-4',
                           onClick: function () {
-                            n('/detail/' + r);
+                            n('./store/detail/' + r);
                           },
                           children: [
                             (0, Yo.jsx)('div', {
@@ -15340,7 +15340,7 @@
                       (0, Yo.jsx)('td', {
                         style: { cursor: 'pointer' },
                         onClick: function () {
-                          e('/detail/' + n[o].id);
+                          e('./store/detail/' + n[o].id);
                         },
                         children: (0, Yo.jsx)('img', {
                           src: './store/img/shoes' + (n[o].id + 1) + '.jpg',
@@ -15354,7 +15354,7 @@
                           cursor: 'pointer',
                         },
                         onClick: function () {
-                          e('/detail/' + n[o].id);
+                          e('./store/detail/' + n[o].id);
                         },
                         children: n[o].name,
                       }),
@@ -15396,7 +15396,7 @@
         return (0, Yo.jsxs)('div', {
           className: 'main-product',
           onClick: function () {
-            e.navigate('/detail/' + e.product[e.i].id);
+            e.navigate('./store/detail/' + e.product[e.i].id);
           },
           children: [
             (0, Yo.jsxs)('div', {
@@ -15481,7 +15481,7 @@
                       className: 'navbar-brand',
                       style: { color: 'white' },
                       onClick: function () {
-                        g('/');
+                        g('./store/');
                       },
                       children: [
                         (0, Yo.jsx)('img', {
@@ -15506,7 +15506,7 @@
                               'aria-current': 'page',
                               style: { color: 'white' },
                               onClick: function () {
-                                g('/');
+                                g('./store/');
                               },
                               children: 'Home',
                             }),
@@ -15517,7 +15517,7 @@
                               className: 'nav-link',
                               style: { color: 'white' },
                               onClick: function () {
-                                g('/about');
+                                g('./store/about');
                               },
                               children: 'About',
                             }),
@@ -15528,7 +15528,7 @@
                               className: 'nav-link',
                               style: { color: 'white' },
                               onClick: function () {
-                                g('/cart');
+                                g('./store/cart');
                               },
                               children: 'Cart',
                             }),
