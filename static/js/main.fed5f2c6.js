@@ -15212,7 +15212,7 @@
                       })
                     : null,
                   (0, Yo.jsx)('img', {
-                    src: './img/shoes' + (f.id + 1) + '.jpg',
+                    src: './store/img/shoes' + (f.id + 1) + '.jpg',
                   }),
                 ],
               }),
@@ -15276,7 +15276,7 @@
                             (0, Yo.jsx)('div', {
                               className: 'viewed-img',
                               children: (0, Yo.jsx)('img', {
-                                src: './img/shoes' + (r + 1) + '.jpg',
+                                src: './store/img/shoes' + (r + 1) + '.jpg',
                                 style: { width: '100%', marginBottom: '5px' },
                               }),
                             }),
@@ -15343,7 +15343,7 @@
                           e('/detail/' + n[o].id);
                         },
                         children: (0, Yo.jsx)('img', {
-                          src: './img/shoes' + (n[o].id + 1) + '.jpg',
+                          src: './store/img/shoes' + (n[o].id + 1) + '.jpg',
                           style: { width: '100%' },
                         }),
                       }),
@@ -15485,7 +15485,7 @@
                       },
                       children: [
                         (0, Yo.jsx)('img', {
-                          src: './img/store-logo.png',
+                          src: './store/img/store-logo.png',
                           alt: 'Shoes Store',
                           height: '35px',
                           style: { marginRight: '10px' },
@@ -15562,7 +15562,7 @@
                         (0, Yo.jsx)('div', {
                           className: 'main-header',
                           children: (0, Yo.jsx)('img', {
-                            src: './img/main-hero2.jpg',
+                            src: './store/img/main-hero2.jpg',
                             alt: '',
                             style: { width: '100%' },
                           }),
