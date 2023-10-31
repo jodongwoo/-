@@ -15408,7 +15408,9 @@
                       children: 'BEST SELLER',
                     })
                   : null,
-                (0, Yo.jsx)('img', { src: 'img/shoes' + (e.i + 1) + '.jpg' }),
+                (0, Yo.jsx)('img', {
+                  src: './store/img/shoes' + (e.i + 1) + '.jpg',
+                }),
               ],
             }),
             (0, Yo.jsxs)('div', {
