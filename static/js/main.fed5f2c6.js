@@ -15487,7 +15487,7 @@
                       },
                       children: [
                         (0, Yo.jsx)('img', {
-                          src: './store/img/store-logo.png',
+                          src: './img/store-logo.png',
                           alt: 'Shoes Store',
                           height: '35px',
                           style: { marginRight: '10px' },
